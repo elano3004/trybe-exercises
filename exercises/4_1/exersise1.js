@@ -11,3 +11,7 @@ console.log('Soma de ' +a+ ' + ' +b+  ' é ' +result);
 // Primeiro Subtração; 
 result = b-a;
 console.log('Subtração de ' +b+ ' - ' +a+  ' é ' +result);
+
+// Primeiro Multiplicaçao; 
+result = a*b;
+console.log('Multiplicação de ' +a+ ' * ' +b+  ' é ' +result);

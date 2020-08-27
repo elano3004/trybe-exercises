@@ -19,3 +19,7 @@ console.log('Multiplicação de ' +a+ ' * ' +b+  ' é ' +result);
 // Primeiro Divisão; 
 result = b/a;
 console.log('Divisão de ' +b+ ' / ' +a+  ' é ' +result);
+
+// Primeiro Modulo; 
+result = b%a;
+console.log('O resto da divisão de ' +b+ ' % ' +a+  ' é ' +result);

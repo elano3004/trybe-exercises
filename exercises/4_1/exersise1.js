@@ -6,4 +6,8 @@ var result;
 
 // Primeiro Soma; 
 result = a+b;
-console.log('Soma de' +a+ ' ' +b+  ' é ' +result);
+console.log('Soma de ' +a+ ' + ' +b+  ' é ' +result);
+
+// Primeiro Subtração; 
+result = b-a;
+console.log('Subtração de ' +b+ ' - ' +a+  ' é ' +result);

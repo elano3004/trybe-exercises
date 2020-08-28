@@ -10,7 +10,7 @@ let lucroMil = (lucro * 1000);
 // //verificando se tem um numero impar ou não
 
 if (valorCusto < 0 || valorVenda < 0) {
-  console.log("false");
+  console.log("Erro na contagem: Valores abaixo de zero!");
 } else {
   console.log("> Valor de compra do produto: " +valorCusto);
   console.log("> Valor do imposto do produto: " +imposto);

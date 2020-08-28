@@ -1,14 +1,20 @@
 //Programa que calcula lucro
 
+//variaveis iniciais
 let valorCusto = 10;
 let valorVenda = 50;
+
+//calculando imposto
 let imposto = (valorCusto * 0.2);
 let valorTotal = valorCusto + imposto;
+
+//calculando lucro
 let lucro = valorVenda - valorTotal;
+
+//calculando lucro se forem vendidos 1000 produtos
 let lucroMil = (lucro * 1000);
 
 // //verificando se tem um numero impar ou não
-
 if (valorCusto < 0 || valorVenda < 0) {
   console.log("Erro na contagem: Valores abaixo de zero!");
 } else {

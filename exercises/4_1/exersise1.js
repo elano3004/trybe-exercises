@@ -1,25 +1,24 @@
 // Programa calculadora
 
-const a = 5;
-const b = 10;
-var result;
+let num1 = 5;
+let num2 = 10;
 
 // Primeiro Soma; 
-result = a+b;
-console.log('Soma de ' +a+ ' + ' +b+  ' é ' +result);
+let soma = num1+num2;
+console.log('Soma de ' +num1+ ' + ' +num2+  ' é ' +soma);
 
 // Primeiro Subtração; 
-result = b-a;
-console.log('Subtração de ' +b+ ' - ' +a+  ' é ' +result);
+let subtracao = num2-num1;
+console.log('Subtração de ' +num2+ ' - ' +num1+  ' é ' +subtracao);
 
 // Primeiro Multiplicaçao; 
-result = a*b;
-console.log('Multiplicação de ' +a+ ' * ' +b+  ' é ' +result);
+let multiplicacao = num1*num2;
+console.log('Multiplicação de ' +num1+ ' * ' +num2+  ' é ' +multiplicacao);
 
 // Primeiro Divisão; 
-result = b/a;
-console.log('Divisão de ' +b+ ' / ' +a+  ' é ' +result);
+let divisao = num2/num1;
+console.log('Divisão de ' +num2+ ' / ' +num1+  ' é ' +divisao);
 
 // Primeiro Modulo; 
-result = b%a;
-console.log('O resto da divisão de ' +b+ ' % ' +a+  ' é ' +result);
+let modulo = num2%num1;
+console.log('O resto da divisão de ' +num2+ ' % ' +num1+  ' é ' +modulo);

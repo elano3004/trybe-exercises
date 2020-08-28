@@ -1,20 +1,10 @@
 //Programa que converte nota
 
-// const A = 90;
-// const B = 80;
-// const C = 70;
-// const D = 60;
-// const E = 50;
-// const F = 49;
-
-// função que converte em minuscula
-
-let nota = 35;
-// let res = peca.toLowerCase();
+let nota = -1;
 
 //Comparando
 
-if (nota>=90) {
+if (nota>=90 && nota <=100) {
   console.log("A");
 } else if (nota>=80 && nota <= 89) {
     console.log("B");
@@ -24,6 +14,8 @@ if (nota>=90) {
   console.log("D");
 } else if (nota>=50 && nota <= 59) {
   console.log("E");
-} else if (nota <= 49) {
+} else if (nota>=0 && nota <= 49) {
   console.log("F");
+} else {
+  console.log("Erro esta nota é menor que 0 ou maior que 100%")
 }

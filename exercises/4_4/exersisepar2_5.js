@@ -1,5 +1,7 @@
 // Crie uma função que receba um array de inteiros e retorne o inteiro que 
 // mais se repete.
+let n = [2, 3, 2, 5, 8, 2, 3];
+
 function maisRepetido(numeros) {
   let contRepetido = 0;
   let contNumero = 0;
@@ -20,4 +22,4 @@ function maisRepetido(numeros) {
   return numeros[indexNumeroRepetido];
 }
 
-console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3]));
+console.log(maisRepetido(n));

@@ -12,3 +12,9 @@ body.appendChild(title);
 let div = document.createElement('div');
 div.classList.add('main-content'); 
 body.appendChild(div);
+
+//Questão 03
+//Busca a tag divcom a classe center-contentcomo filho da tag divcriada no passo 2;
+let div2 = document.createElement('div');
+div2.classList.add('center-content'); 
+div.appendChild(div2);

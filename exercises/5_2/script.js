@@ -44,3 +44,19 @@ img.classList.add('small-imagem');
 img.src = "https://picsum.photos/200";
 img.alt = "imagem aleatório"
 div3.appendChild(img);
+
+//Questão 08
+//Local uma lista não ordenada com os valores de 1 a 10 por extenso como os valores da lista. Essa lista deve ser filha do divcriado no passo 6;
+let valores = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+
+let list = document.createElement('ul');
+for (let index = 0; index < valores.length; index += 1) {
+  let valorList = valores[index];
+
+  let elementoList = document.createElement('li');
+  elementoList.innerText = valorList;
+
+  list.appendChild(elementoList);
+}
+
+div4.appendChild(list);

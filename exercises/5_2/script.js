@@ -22,5 +22,11 @@ div.appendChild(div2);
 //Questão 04
 //Local a tag <p>como filho do divcriado no passo 3 e coloque algum texto;
 let text = document.createElement('p');
-text.innerText = "Hoje a aula foi sobre JavaScript DOM, aprendemos como funcinona para criar tags apartir do javascript.";
+text.innerText = "Hoje a aula foi sobre JavaScript DOM, aprendemos como funcinona para criar tags apartir do Javascript.";
 div2.appendChild(text);
+
+//Questão 05
+//Busca a tag <div>com a classe left-content como filho da tag divcriada no passo 2;
+let div3 = document.createElement('div');
+div3.classList.add('left-content'); 
+div.appendChild(div3);

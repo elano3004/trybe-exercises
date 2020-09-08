@@ -30,3 +30,9 @@ div2.appendChild(text);
 let div3 = document.createElement('div');
 div3.classList.add('left-content'); 
 div.appendChild(div3);
+
+//Questão 06
+//Busca a tag <div>com a classe right-content como filho da tag divcriada no passo 2;
+let div4 = document.createElement('div');
+div4.classList.add('right-content'); 
+div.appendChild(div4);

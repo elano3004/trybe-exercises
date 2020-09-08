@@ -36,3 +36,11 @@ div.appendChild(div3);
 let div4 = document.createElement('div');
 div4.classList.add('right-content'); 
 div.appendChild(div4);
+
+//Questão 07
+//Local uma imagem com srcdefinida para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do divcriado no passo 5;
+let img = document.createElement('img');
+img.classList.add('small-imagem');
+img.src = "https://picsum.photos/200";
+img.alt = "imagem aleatório"
+div3.appendChild(img);

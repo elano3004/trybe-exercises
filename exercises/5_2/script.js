@@ -63,10 +63,13 @@ div4.appendChild(list);
 //Questão 09
 //Local 3 tags h3, todas sendo filhas do divcriado no passo 2.
 let subTitle1 = document.createElement('h3');
+subTitle1.classList.add('description');
 subTitle1.innerText = "H3 - UM";
 let subTitle2 = document.createElement('h3');
+subTitle2.classList.add('description');
 subTitle2.innerText = "H3 - DOIS";
 let subTitle3 = document.createElement('h3');
+subTitle3.classList.add('description');
 subTitle3.innerText = "H3 - TRÊS";
 div.appendChild(subTitle1);
 div.appendChild(subTitle2);

@@ -55,6 +55,7 @@ for (let index = 0; index < valores.length; index += 1) {
 
   let elementoList = document.createElement('li');
   elementoList.innerText = valorList;
+  elementoList.className = 'elemento-List';
 
   list.appendChild(elementoList);
 }
@@ -63,14 +64,40 @@ div4.appendChild(list);
 //Questão 09
 //Local 3 tags h3, todas sendo filhas do divcriado no passo 2.
 let subTitle1 = document.createElement('h3');
-subTitle1.classList.add('description');
 subTitle1.innerText = "H3 - UM";
 let subTitle2 = document.createElement('h3');
-subTitle2.classList.add('description');
 subTitle2.innerText = "H3 - DOIS";
 let subTitle3 = document.createElement('h3');
-subTitle3.classList.add('description');
 subTitle3.innerText = "H3 - TRÊS";
 div.appendChild(subTitle1);
 div.appendChild(subTitle2);
 div.appendChild(subTitle3);
+
+//bonus 2
+subTitle1.classList.add('description');
+subTitle2.classList.add('description');
+subTitle3.classList.add('description');
+
+//bonus 3 
+let removeDiv = document.querySelector('.main-content');
+removeDiv.removeChild(div3);
+
+//bonus 4
+let centrDiv = document.querySelector('.right-content');
+div4.style.margin = 'auto';
+
+//bonus 5
+let trocaCor = document.querySelector('.center-content');
+div.style.background = 'green';
+
+//bonus 6
+let elementoList = document.querySelectorAll('.elemento-List');
+console.log(elementoList);
+
+for (let index = 0; index < elementoList.length; index += 1) {
+  let element = elementoList[index];
+
+  if (element.innerText.includes('Nove') || element.innerText.includes('Dez')) {
+    list.removeChild(element);
+  }
+}

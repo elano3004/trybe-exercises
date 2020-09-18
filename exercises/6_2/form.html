@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Formulário Trybe</h1>
+        <em class="subtitle">Meu primeiro formulário com Bulma </em>
+      </div>
+    </section>
+    <form action="">
+      <div class="field">
+        <label class="label">Nome:</label>
+        <div class="control">
+          <input
+            class="input"
+            name="nome"
+            type="text"
+            max="40"
+            required="required"
+            placeholder="Insira seu nome"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input
+            class="input"
+            type="email"
+            placeholder="Email"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">CPF:</label>
+        <div class="control">
+          <input
+            class="input"
+            name="CPF"
+            type="text"
+            max="11"
+            required="required"
+            placeholder="Insira seu CPF"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Endereço:</label>
+        <div class="contr">
+          <input
+            class="input"
+            name="endereco"
+            type="text"
+            max="200"
+            required="required"
+            placeholder="Insira sua Rua, número e Bairro"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Cidade:</label>
+        <div class="control">
+          <input
+            class="input"
+            name="cidade"
+            type="text"
+            max="28"
+            required="required"
+            placeholder="Insira sua cidade"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Estado:</label>
+        <div class="control">
+          <div class="select">
+            <select name="estado" id="estado">
+              <option selected="selected" value="1">Selecione</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="control">
+          <label class="label">Casa ou Apartamento:</label>
+          <label class="radio" for="casa">
+            <input
+              type="radio"
+              id="casa"
+              name="casa-apartamento"
+              value="casa"
+              type="radio"
+              required="required"
+            />
+            Casa
+          </label>
+          <br />
+          <label class="radio" for="apartamento">
+            <input
+              type="radio"
+              id="apartamento"
+              name="casa-apartamento"
+              value="apartamento"
+              required="required"
+            />
+            Apartamento
+          </label>
+        </div>
+      </div>
+    </form>
+    <script src="/script.js"></script>
+  </body>
+</html>

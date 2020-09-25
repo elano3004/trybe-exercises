@@ -1,0 +1,7 @@
+#pond {
+    display: flex;
+  flex-wrap: wrap-reverse; /* quebra a linha de maneira reversa (invertendo a ordem da segunda linha) */
+  flex-direction: column-reverse; /* (criar uma coluna na ordem inversa) */
+  justify-content: center; /* (centraliza no eixo central - eixo Y) */
+  align-content: space-between; /* (alinha os sapos amarelos pelo espaço entre os itens) */
+  }
